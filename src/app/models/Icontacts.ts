@@ -6,5 +6,5 @@ export interface Icontact{
     mobile: string;
     company: string;
     title: string;
-    groupID: string;
+    groupId: string;
 }
