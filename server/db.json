@@ -1,0 +1,46 @@
+{
+    "contacts": [
+        {
+            "id": "xdrh",
+            "name": "rahul",
+            "company": "youtube",
+            "email": "rahul@youtube.com",
+            "title": "developer",
+            "mobileUrl": "4356345635",
+            "photoUrl": "http://www.youtube.com",
+            "groupId": "3"
+        },
+        {
+            "id": "xdxdrh",
+            "name": "sanu",
+            "company": "youtuber",
+            "email": "sanu@youtube.com",
+            "title": "doctor",
+            "mobileUrl": "3434544",
+            "photoUrl": "http://www.youtube.com/usa",
+            "groupId": "2"
+        }
+    ],
+    "groups": [
+        {
+            "id": "1",
+            "name": "colleague"
+        },
+        {
+            "id": "2",
+            "name": "friend"
+        },
+        {
+            "id": "3",
+            "name": "family"
+        },
+        {
+            "id": "4",
+            "name": "service"
+        },
+        {
+            "id": "5",
+            "name": "community"
+        }
+    ]
+}

@@ -6,8 +6,9 @@ import { EditContactComponent } from './components/edit-contact/edit-contact.com
 import { ViewContactComponent } from './components/view-contact/view-contact.component';
 import { PagenotfoundService } from './services/pagenotfound.service';
 
+
 const routes: Routes = [
-  {path: '',redirectTo:'/contacts/admin', pathMatch: 'full'},
+  {path: '', redirectTo:'/contacts/admin', pathMatch: 'full'},
   {path: 'contacts/admin', component: ContactManagerComponent},
   {path: 'contacts/add', component: AddContactComponent},
   {path: 'contacts/edit/:contactid', component: EditContactComponent},
