@@ -16,7 +16,7 @@ export class ContactService {
     return this.http.get(dataURL);
   }
 
-  getSingleContact(contactId: string| null):Observable<any>{
+  getSingleContact(contactId: any):Observable<any>{
     let dataURL:string = `http://localhost:9000/contacts/${contactId}`;
     return this.http.get(dataURL);
   }
@@ -26,14 +26,14 @@ export class ContactService {
     return this.http.post(dataURL,contactObj);
   }
 
-  updateContact(contactObj: string, contactId:string):Observable<any>{
-    let dataURL:string = `http://localhost:9000/contacts${contactId}`;
+  updateContact(contactObj: any, contactId:any):Observable<any>{
+    let dataURL:string = `http://localhost:9000/contacts/${contactId}`;
     return this.http.put(dataURL,contactObj);
   } 
 
 
   deleteContact( contactId:string):Observable<any>{
-    let dataURL:string = `http://localhost:9000/contacts${contactId}`;
+    let dataURL:string = `http://localhost:9000/contacts/${contactId}`;
     return this.http.delete(dataURL);
   } 
 

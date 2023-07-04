@@ -1,18 +1,8 @@
 {
   "contacts": [
     {
-      "id": "xdrh",
-      "name": "rahul",
-      "company": "youtube",
-      "email": "rahul@youtube.com",
-      "title": "developer",
-      "mobile": "4356345635",
-      "photo": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80",
-      "groupId": "3"
-    },
-    {
       "id": "xdxdrh",
-      "name": "sanu",
+      "name": "Siddharth Moharana",
       "company": "youtuber",
       "email": "sanu@youtube.com",
       "title": "doctor",
@@ -31,14 +21,14 @@
       "groupId": "3"
     },
     {
+      "name": "apple",
       "photo": "https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
-      "name": "Rahul Biswal",
       "email": "rahulbiswalweb@gmail.com",
-      "mobile": 34563456,
-      "company": "asdg",
-      "title": "sgasg",
-      "groupId": "1",
-      "id": "__cJQe9"
+      "mobile": 346746,
+      "company": "cghm",
+      "title": "xfgn",
+      "groupId": "3",
+      "id": "g4jGgUJ"
     }
   ],
   "groups": [

@@ -40,4 +40,11 @@ export class ContactManagerComponent  implements OnInit {
   //     console.log(res, "###getSingleGroups");
   //   })
   // }
+
+  deleteContact(contactId:any){
+    this.contactService.deleteContact(contactId).subscribe((res)=>{console.log(res);
+      this.loadContact();
+    })
+  }
+
 }
