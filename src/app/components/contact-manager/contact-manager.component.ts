@@ -16,7 +16,7 @@ export class ContactManagerComponent  implements OnInit {
   ngOnInit(): void {
     this.loading = true;
     this.loadContact();
-    this.loadGroups();
+    // this.loadGroups();
     // this.getSingleGroup();
   }
   loadContact(){
@@ -29,15 +29,15 @@ export class ContactManagerComponent  implements OnInit {
     },)
   }
 
-  loadGroups(){
-    this.contactService.getAllGroups().subscribe((res)=>{
-      console.log(res, "###Groups");
-    })
-  }
+  // loadGroups(){
+  //   this.contactService.getAllGroups().subscribe((res)=>{
+  //     console.log(res, "###Groups");
+  //   })
+  // }
 
-  getSingleGroup(contact:Icontact){
-    this.contactService.getGroups(contact).subscribe((res)=>{
-      console.log(res, "###getSingleGroups");
-    })
-  }
+  // getSingleGroup(contact:Icontact){
+  //   this.contactService.getSingleGroups(contact).subscribe((res)=>{
+  //     console.log(res, "###getSingleGroups");
+  //   })
+  // }
 }

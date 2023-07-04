@@ -21,7 +21,7 @@ export class ContactService {
     return this.http.get(dataURL);
   }
 
-  createContact(contactObj: string):Observable<any>{
+  createContact(contactObj: any):Observable<any>{
     let dataURL:string = `http://localhost:9000/contacts`;
     return this.http.post(dataURL,contactObj);
   }
@@ -44,9 +44,11 @@ export class ContactService {
   }
 
 
-  getGroups(contact: Icontact):Observable<any>{
+  getSingleGroups(contact: Icontact):Observable<any>{
     let dataURL:string = `http://localhost:9000/groups${contact.groupId}`;
     return this.http.get(dataURL);
   }
+
+  
 }
 
